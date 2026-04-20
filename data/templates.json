@@ -1,0 +1,61 @@
+[
+  {
+    "tag": "payment",
+    "patterns": [
+      "What payment methods do you accept?",
+      "Payment options",
+      "How can I pay?",
+      "Do you accept credit cards?"
+    ],
+    "responses": [
+      "We accept credit cards, debit cards, and PayPal.",
+      "You can pay using credit cards, debit cards, or PayPal."
+    ]
+  },
+  {
+    "tag": "greeting",
+    "patterns": ["hello", "hi", "hey", "czesc", "cześć", "hej", "siema"],
+    "responses": ["Cześć! Jak mogę pomóc?", "Hej! W czym mogę ci pomóc?"]
+  },
+  {
+    "tag": "farewell",
+    "patterns": ["bye", "goodbye", "do widzenia", "pa", "na razie"],
+    "responses": ["Do widzenia!", "Na razie! Wróć kiedy chcesz."]
+  },
+  {
+    "tag": "identity",
+    "patterns": ["kim jesteś", "co potrafisz", "who are you"],
+    "responses": [
+      "Jestem lokalnym chatbotem. Liczę proste działania, odpowiadam ze szablonów i używam lokalnego modelu jako fallbacku.",
+      "Mogę prowadzić rozmowę, liczyć wyrażenia matematyczne i korzystać z lokalnych szablonów odpowiedzi."
+    ]
+  },
+  {
+    "tag": "poland_capital",
+    "patterns": [
+      "co jest stolicą polski",
+      "jaka jest stolica polski",
+      "stolica polski",
+      "capital of poland"
+    ],
+    "responses": [
+      "Stolicą Polski jest Warszawa.",
+      "Warszawa jest stolicą Polski."
+    ]
+  },
+  {
+    "tag": "small_talk",
+    "patterns": [
+      "co tam",
+      "jak leci",
+      "jak się masz",
+      "jak sie masz",
+      "co słychać",
+      "co slychac"
+    ],
+    "responses": [
+      "Działa lokalnie i jestem gotowy do rozmowy. Możesz zadać pytanie albo wpisać działanie matematyczne.",
+      "Wszystko działa. Mogę policzyć działanie albo odpowiedzieć na pytanie dodane do szablonów."
+    ]
+  }
+]
