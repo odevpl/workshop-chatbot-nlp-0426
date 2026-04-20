@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
 
-from routes.memory_store import (
+from database.database import (
     create_conversation,
     delete_conversation,
     get_conversation,

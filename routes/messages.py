@@ -1,8 +1,8 @@
 from flask import Blueprint, jsonify, request
 
+from database.database import add_message, get_conversation, list_messages
 from handlers.math_handler import calculate, is_math_expression
 from handlers.template_handler import find_template_response
-from routes.memory_store import add_message, get_conversation, list_messages
 
 
 bp = Blueprint("messages", __name__, url_prefix="/api/conversations/<int:conversation_id>/messages")
