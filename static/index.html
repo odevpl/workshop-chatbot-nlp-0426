@@ -3,15 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Python Chatbot - Etap 01</title>
+    <title>Python Chatbot</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <main class="starter">
-      <p class="eyebrow">Etap 01</p>
-      <h1>Python Chatbot</h1>
-      <p>Flask działa. To jest pierwszy uruchamialny szkielet projektu.</p>
-      <a href="/api/health">Sprawdź /api/health</a>
+    <main class="app-shell">
+      <section class="chat-pane" aria-label="Czat">
+        <header class="chat-header">
+          <div>
+            <p class="eyebrow">Lokalny chatbot</p>
+            <input id="conversation-title" class="title-input" type="text" value="Nowa rozmowa" />
+          </div>
+          <button id="save-title" class="secondary-button" type="button">Zapisz tytuł</button>
+        </header>
+
+        <div id="messages" class="messages" aria-live="polite"></div>
+
+        <form id="message-form" class="composer">
+          <textarea
+            id="message-input"
+            rows="1"
+            placeholder="Napisz wiadomość, np. ile to 2+2?"
+            autocomplete="off"
+          ></textarea>
+          <button id="send-message" type="submit">Wyślij</button>
+        </form>
+      </section>
+
+      <aside class="sidebar" aria-label="Rozmowy">
+        <div class="sidebar-header">
+          <h1>Rozmowy</h1>
+          <button id="new-conversation" type="button">Nowa</button>
+        </div>
+        <div id="conversation-list" class="conversation-list"></div>
+      </aside>
     </main>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/title.js"></script>
+    <script src="/js/chat.js"></script>
+    <script src="/js/sidebar.js"></script>
   </body>
 </html>
