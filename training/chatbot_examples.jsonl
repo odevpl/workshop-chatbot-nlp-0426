@@ -1,0 +1,77 @@
+{"messages":[{"role":"user","content":"Cześć"},{"role":"assistant","content":"Cześć! Jak mogę pomóc?"}]}
+{"messages":[{"role":"user","content":"Kim jesteś?"},{"role":"assistant","content":"Jestem lokalnym chatbotem działającym w aplikacji Flask."}]}
+{"messages":[{"role":"user","content":"Co potrafisz?"},{"role":"assistant","content":"Potrafię liczyć proste działania, odpowiadać ze szablonów i korzystać z lokalnego modelu rozmów."}]}
+{"messages":[{"role":"user","content":"Odpowiadaj krótko"},{"role":"assistant","content":"Jasne, będę odpowiadać krótko i konkretnie."}]}
+{"messages":[{"role":"user","content":"Jak mam z tobą rozmawiać?"},{"role":"assistant","content":"Pisz normalnie po polsku i zadawaj konkretne pytania."}]}
+{"messages":[{"role":"user","content":"Ile to 2+2?"},{"role":"assistant","content":"Wynik: 4"}]}
+{"messages":[{"role":"user","content":"Policz 12 * 8"},{"role":"assistant","content":"Wynik: 96"}]}
+{"messages":[{"role":"user","content":"Ile to jest 9 / 3?"},{"role":"assistant","content":"Wynik: 3"}]}
+{"messages":[{"role":"user","content":"Co tam?"},{"role":"assistant","content":"Wszystko działa. W czym mogę pomóc?"}]}
+{"messages":[{"role":"user","content":"Jak się masz?"},{"role":"assistant","content":"Dobrze, jestem gotowy do rozmowy."}]}
+{"messages":[{"role":"user","content":"Podaj przepis na ciasto do pizzy"},{"role":"assistant","content":"Wymieszaj mąkę, wodę, drożdże, sól i oliwę. Wyrabiaj kilka minut, odstaw do wyrośnięcia i piecz w wysokiej temperaturze."}]}
+{"messages":[{"role":"user","content":"Jak zrobić zupę pomidorową?"},{"role":"assistant","content":"Podsmaż cebulę, dodaj pomidory i bulion, gotuj kilkanaście minut, a potem dopraw solą, pieprzem i bazylią."}]}
+{"messages":[{"role":"user","content":"Poleć szybki obiad"},{"role":"assistant","content":"Dobrym szybkim obiadem jest makaron z sosem pomidorowym, czosnkiem i serem."}]}
+{"messages":[{"role":"user","content":"Napisz krótkiego maila z podziękowaniem"},{"role":"assistant","content":"Dzień dobry, dziękuję za pomoc i poświęcony czas. Pozdrawiam serdecznie."}]}
+{"messages":[{"role":"user","content":"Popraw zdanie: ja lubić pizza"},{"role":"assistant","content":"Poprawnie: Lubię pizzę."}]}
+{"messages":[{"role":"user","content":"Przetłumacz: good morning"},{"role":"assistant","content":"Good morning znaczy: dzień dobry."}]}
+{"messages":[{"role":"user","content":"Mam na imię Adam"},{"role":"assistant","content":"Miło mi, Adam."}]}
+{"messages":[{"role":"user","content":"Jak mam na imię?"},{"role":"assistant","content":"Masz na imię Adam."}]}
+{"messages":[{"role":"user","content":"Lubię kolor zielony"},{"role":"assistant","content":"Zapamiętam, że lubisz kolor zielony."}]}
+{"messages":[{"role":"user","content":"Jaki kolor lubię?"},{"role":"assistant","content":"Lubisz kolor zielony."}]}
+{"messages":[{"role":"user","content":"Co to jest Flask?"},{"role":"assistant","content":"Flask to lekki framework webowy dla Pythona, używany do tworzenia aplikacji i API."}]}
+{"messages":[{"role":"user","content":"Co to jest SQLite?"},{"role":"assistant","content":"SQLite to lekka baza danych zapisywana w pliku."}]}
+{"messages":[{"role":"user","content":"Dlaczego model odpowiada wolno?"},{"role":"assistant","content":"Model działa lokalnie na CPU, więc generowanie tekstu może trwać kilkanaście sekund."}]}
+{"messages":[{"role":"user","content":"Jak przyspieszyć odpowiedzi?"},{"role":"assistant","content":"Można zmniejszyć limit tokenów, wyłączyć sampling albo użyć mniejszego modelu lub GPU."}]}
+{"messages":[{"role":"user","content":"Co oznacza template?"},{"role":"assistant","content":"Template to gotowy szablon odpowiedzi dopasowywany do podobnych pytań użytkownika."}]}
+{"messages":[{"role":"user","content":"Co oznacza fallback?"},{"role":"assistant","content":"Fallback to zapasowa ścieżka odpowiedzi używana, gdy matematyka i szablony nie pasują."}]}
+{"messages":[{"role":"user","content":"Czy zapisujesz rozmowy?"},{"role":"assistant","content":"Tak, rozmowy i wiadomości są zapisywane lokalnie w bazie SQLite."}]}
+{"messages":[{"role":"user","content":"Czy muszę się logować?"},{"role":"assistant","content":"Nie, aplikacja działa anonimowo i nie wymaga logowania."}]}
+{"messages":[{"role":"user","content":"Jak zmienić nazwę rozmowy?"},{"role":"assistant","content":"Wpisz nowy tytuł u góry czatu i kliknij przycisk zapisu."}]}
+{"messages":[{"role":"user","content":"Do widzenia"},{"role":"assistant","content":"Do widzenia! Wróć, kiedy chcesz."}]}
+{"messages":[{"role":"user","content":"Cześć"},{"role":"assistant","content":"Cześć! Jak mogę pomóc?"}]}
+{"messages":[{"role":"user","content":"Hej, co potrafisz?"},{"role":"assistant","content":"Potrafię liczyć proste działania, odpowiadać ze szablonów i korzystać z lokalnego modelu rozmów."}]}
+{"messages":[{"role":"user","content":"Kim jesteś?"},{"role":"assistant","content":"Jestem lokalnym chatbotem uruchamianym w aplikacji Flask."}]}
+{"messages":[{"role":"user","content":"Jak mam z tobą rozmawiać?"},{"role":"assistant","content":"Pisz normalnie po polsku. Najlepiej zadawaj krótkie, konkretne pytania."}]}
+{"messages":[{"role":"user","content":"Odpowiadaj krótko"},{"role":"assistant","content":"Jasne, będę odpowiadać krótko i konkretnie."}]}
+{"messages":[{"role":"user","content":"Ile to 2+2?"},{"role":"assistant","content":"Wynik: 4"}]}
+{"messages":[{"role":"user","content":"Policz 12 * 8"},{"role":"assistant","content":"Wynik: 96"}]}
+{"messages":[{"role":"user","content":"Ile to jest 9 / 3?"},{"role":"assistant","content":"Wynik: 3"}]}
+{"messages":[{"role":"user","content":"Oblicz 15% z 200"},{"role":"assistant","content":"15% z 200 to 30."}]}
+{"messages":[{"role":"user","content":"Co tam?"},{"role":"assistant","content":"Wszystko działa. W czym mogę pomóc?"}]}
+{"messages":[{"role":"user","content":"Jak leci?"},{"role":"assistant","content":"Dobrze, jestem gotowy do rozmowy."}]}
+{"messages":[{"role":"user","content":"Jak się masz?"},{"role":"assistant","content":"Dobrze, dzięki. Jak mogę pomóc?"}]}
+{"messages":[{"role":"user","content":"Podaj przepis na ciasto do pizzy"},{"role":"assistant","content":"Wymieszaj mąkę, wodę, drożdże, sól i oliwę. Wyrabiaj kilka minut, odstaw do wyrośnięcia i piecz w wysokiej temperaturze."}]}
+{"messages":[{"role":"user","content":"Jak zrobić zupę pomidorową?"},{"role":"assistant","content":"Podsmaż cebulę, dodaj pomidory i bulion, gotuj kilkanaście minut, a potem dopraw solą, pieprzem i bazylią."}]}
+{"messages":[{"role":"user","content":"Poleć szybki obiad"},{"role":"assistant","content":"Dobrym szybkim obiadem jest makaron z sosem pomidorowym, czosnkiem i parmezanem."}]}
+{"messages":[{"role":"user","content":"Co mogę zjeść na śniadanie?"},{"role":"assistant","content":"Możesz zrobić owsiankę, jajecznicę albo kanapki z warzywami."}]}
+{"messages":[{"role":"user","content":"Napisz krótkiego maila z podziękowaniem"},{"role":"assistant","content":"Dzień dobry, dziękuję za pomoc i poświęcony czas. Pozdrawiam serdecznie."}]}
+{"messages":[{"role":"user","content":"Popraw zdanie: ja lubić pizza"},{"role":"assistant","content":"Poprawnie: Lubię pizzę."}]}
+{"messages":[{"role":"user","content":"Przetłumacz: good morning"},{"role":"assistant","content":"Good morning znaczy: dzień dobry."}]}
+{"messages":[{"role":"user","content":"Jak powiedzieć po angielsku dziękuję?"},{"role":"assistant","content":"Po angielsku dziękuję to thank you."}]}
+{"messages":[{"role":"user","content":"Mam na imię Adam"},{"role":"assistant","content":"Miło mi, Adam."}]}
+{"messages":[{"role":"user","content":"Jak mam na imię?"},{"role":"assistant","content":"Masz na imię Adam."}]}
+{"messages":[{"role":"user","content":"Lubię kolor zielony"},{"role":"assistant","content":"Zapamiętam, że lubisz kolor zielony."}]}
+{"messages":[{"role":"user","content":"Jaki kolor lubię?"},{"role":"assistant","content":"Lubisz kolor zielony."}]}
+{"messages":[{"role":"user","content":"Nie wiem od czego zacząć naukę Pythona"},{"role":"assistant","content":"Zacznij od zmiennych, instrukcji warunkowych, pętli i prostych funkcji."}]}
+{"messages":[{"role":"user","content":"Co to jest Flask?"},{"role":"assistant","content":"Flask to lekki framework webowy dla Pythona, używany do tworzenia aplikacji i API."}]}
+{"messages":[{"role":"user","content":"Co to jest SQLite?"},{"role":"assistant","content":"SQLite to lekka baza danych zapisywana w pliku, dobra do małych aplikacji lokalnych."}]}
+{"messages":[{"role":"user","content":"Co to jest JSON?"},{"role":"assistant","content":"JSON to prosty format zapisu danych, często używany w API i konfiguracji aplikacji."}]}
+{"messages":[{"role":"user","content":"Dlaczego model odpowiada wolno?"},{"role":"assistant","content":"Model działa lokalnie na CPU, więc generowanie tekstu może trwać kilkanaście lub kilkadziesiąt sekund."}]}
+{"messages":[{"role":"user","content":"Jak przyspieszyć odpowiedzi?"},{"role":"assistant","content":"Można zmniejszyć limit tokenów, wyłączyć sampling albo użyć mniejszego modelu lub GPU."}]}
+{"messages":[{"role":"user","content":"Co oznacza template?"},{"role":"assistant","content":"Template to gotowy szablon odpowiedzi dopasowywany do podobnych pytań użytkownika."}]}
+{"messages":[{"role":"user","content":"Co oznacza fallback?"},{"role":"assistant","content":"Fallback to zapasowa ścieżka odpowiedzi, używana gdy matematyka i szablony nie pasują."}]}
+{"messages":[{"role":"user","content":"Czy zapisujesz rozmowy?"},{"role":"assistant","content":"Tak, rozmowy i wiadomości są zapisywane lokalnie w bazie SQLite."}]}
+{"messages":[{"role":"user","content":"Czy muszę się logować?"},{"role":"assistant","content":"Nie, aplikacja działa anonimowo i nie wymaga logowania."}]}
+{"messages":[{"role":"user","content":"Usuń rozmowę"},{"role":"assistant","content":"Możesz usunąć rozmowę przyciskiem usuwania w panelu rozmów."}]}
+{"messages":[{"role":"user","content":"Jak zmienić nazwę rozmowy?"},{"role":"assistant","content":"Wpisz nowy tytuł u góry czatu i kliknij przycisk zapisu."}]}
+{"messages":[{"role":"user","content":"Podaj trzy pomysły na projekt w Pythonie"},{"role":"assistant","content":"Możesz zrobić kalkulator, listę zadań albo prostego chatbota webowego."}]}
+{"messages":[{"role":"user","content":"Wyjaśnij pętlę for"},{"role":"assistant","content":"Pętla for wykonuje ten sam blok kodu dla kolejnych elementów kolekcji."}]}
+{"messages":[{"role":"user","content":"Co to jest funkcja?"},{"role":"assistant","content":"Funkcja to wydzielony fragment kodu, który można wielokrotnie wywoływać."}]}
+{"messages":[{"role":"user","content":"Napisz prosty przykład funkcji w Pythonie"},{"role":"assistant","content":"def przywitaj(imie): return f\"Cześć, {imie}!\""}]}
+{"messages":[{"role":"user","content":"Jak działa historia rozmów?"},{"role":"assistant","content":"Historia jest pobierana z SQLite i przekazywana do modelu jako kontekst rozmowy."}]}
+{"messages":[{"role":"user","content":"Czy mogę edytować odpowiedzi szablonowe?"},{"role":"assistant","content":"Tak, odpowiedzi szablonowe możesz zmieniać w pliku data/templates.json."}]}
+{"messages":[{"role":"user","content":"Co zrobić, gdy model się myli?"},{"role":"assistant","content":"Najlepiej dodać szablon dla częstego pytania albo poprawić prompt systemowy."}]}
+{"messages":[{"role":"user","content":"Napisz krótką definicję chatbota"},{"role":"assistant","content":"Chatbot to program, który prowadzi rozmowę tekstową z użytkownikiem."}]}
+{"messages":[{"role":"user","content":"Podsumuj ten projekt jednym zdaniem"},{"role":"assistant","content":"To lokalny chatbot Flask z historią rozmów, szablonami, matematyką i modelem językowym."}]}
+{"messages":[{"role":"user","content":"Do widzenia"},{"role":"assistant","content":"Do widzenia! Wróć, kiedy chcesz."}]}
+{"messages":[{"role":"user","content":"Na razie"},{"role":"assistant","content":"Na razie! Miłego dnia."}]}
